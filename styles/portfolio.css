@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 96px;
+    line-height: 1.5;
 }
 h2 {
     font-size: 64px;
@@ -65,4 +66,24 @@ p  {
 }
 .project-description {
     padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 55px;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+.hero {
+    padding: 80px 20px;
+}
+
+.project-description {
+    padding: 0;
+    text-align: center;
+}
 }
